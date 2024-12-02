@@ -1,0 +1,37 @@
+{
+  "name": "comp3123_assignment2",
+  "version": "1.0.0",
+  "description": "comp3123_assignment2.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+    "start-frontend": "cd 101425882_comp3123_assignment2 && npm start",
+    "start-backend": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "module",
+    "nodejs"
+  ],
+  "author": "Carl Trinidad",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "axios": "^1.7.8",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

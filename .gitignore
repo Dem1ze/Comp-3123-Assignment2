@@ -1,0 +1,4 @@
+.env
+node_modules/
+
+MONGO_URI=mongodb://localhost:27017/assign2
